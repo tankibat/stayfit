@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const API='AIzaSyCrabFFe6a48icSTxTv9zUTRCxB2qyzElw' 
 const channelId = 'UCkgY5iy0Y4SqQustDKlee7g' 
 const result = 10;
-const rjson= '' ;
+
 //https://www.googleapis.com/youtube/v3/search?key=AIzaSyCrabFFe6a48icSTxTv9zUTRCxB2qyzElw&channelId=UCkgY5iy0Y4SqQustDKlee7g&part=snippet,id&order=date&maxResults=10
 // https://www.googleapis.com/youtube/v3/search?key=${AIzaSyCrabFFe6a48icSTxTv9zUTRCxB2qyzElw}&channelId=${UCkgY5iy0Y4SqQustDKlee7g}&part=snippet,id&order=date&maxResults=20
 

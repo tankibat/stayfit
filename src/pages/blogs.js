@@ -12,7 +12,7 @@ return (
 	
 	<Col   sm={4} lg={12} md={12}>
 	
-	<h1 style={{backgroundColor: "lightblue"}}> Welcome to Tan Ki BatBlogs</h1>
+	<h4 style={{backgroundColor: "lightblue"}}> Blogs </h4>
 	
 	
 	<p  >

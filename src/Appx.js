@@ -8,14 +8,14 @@ import Events from './pages/events';
 import AnnualReport from './pages/annual';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
-
+import NotFound from './pages/pagenotfound' ;
 import Youtube from './pages/youtube'  
 function Appx() {
   return (
     <Router>
       <Navbarx/>
       <Switch>
-        <Route path='/home' exact component={Home} />
+        <Route path='/home' exact component={Blogs} />
         <Route path='/about' component={About} />
         <Route path='/events' component={Events} />
         
@@ -23,8 +23,9 @@ function Appx() {
         <Route path='/youtube' component={Youtube} />
         
         <Route path='/team' component={Teams} />
-        <Route path='/' component={Blogs} />
+        <Route exact path='/' component={Blogs} />
         <Route path='/about' component={About} />
+        <Route component={NotFound} />
       </Switch>
     </Router>
   );

@@ -49,7 +49,7 @@ const Navbarx = () => {
      
      
      
-    <NavLink to='/blogs' activeStyle ={{ color:'#3426fb' }}     >
+    <NavLink to='/home' activeStyle ={{ color:'#3426fb' }}     >
             Home
           </NavLink>
           <NavLink to='/about' activeStyle ={{ color:'#3426fb' }} >
@@ -60,11 +60,11 @@ const Navbarx = () => {
             Events
           </NavLink>
           <NavLink to='/healthyfood' activeStyle ={{ color:'#3426fb' }} >
-            Healthy Food
+            Healthy Foods
           </NavLink>
           
           <NavLink to='/youtube' activeStyle ={{ color:'#3426fb' }}  >
-            Recent Video
+            Recent Videos
           </NavLink>
            
           <NavLink to='/team' activeStyle ={{ color:'#3426fb' }}  >

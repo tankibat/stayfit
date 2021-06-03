@@ -67,20 +67,20 @@ const FooterPage = () => {
 		alignItems: 'Center',
 	}}   >
          
-    < FacebookShareButton    url={'https://www.facebook.com/'}  title={'fallow'}  >  
+    < FacebookShareButton    url={'https://www.facebook.com/'}  title={'follow me on Facebook '}  >  
           
                  
           <FacebookIcon size={32} round={true} />  </ FacebookShareButton> &nbsp;&nbsp;
    
-          < WhatsappShareButton    url={'https://www.youtube.com/channel/UCkgY5iy0Y4SqQustDKlee7g/videos'}  title={'fallow'}  > 
+          < WhatsappShareButton    url={'https://www.youtube.com/channel/UCkgY5iy0Y4SqQustDKlee7g/videos'}  title={'follow me on Youtube'}  > 
           
                  
           <WhatsappIcon size={32} round={true} />  </ WhatsappShareButton> 
-          < TwitterShareButton    url={'https://twitter.com/'}  title={'fallow'}  >  &nbsp; &nbsp;
+          < TwitterShareButton    url={'https://twitter.com/'}  title={''}  >  &nbsp; &nbsp;
           
                  
           <TwitterIcon size={32} round={true} />  </ TwitterShareButton> 
-          < LinkedinShareButton   url={''}  title={'fallow'}  >  &nbsp; &nbsp;
+          < LinkedinShareButton   url={''}  title={''}  >  &nbsp; &nbsp;
           
                  
           <LinkedinIcon size={32} round={true} />  </LinkedinShareButton> 
@@ -93,7 +93,8 @@ const FooterPage = () => {
     </Col>
     <Col sm={4} lg={12} md={12}  style={{backgroundColor: 'white', height: '100px', display: 'flex',justifyContent: 'Center' ,	alignItems: 'Center'}} > 
     
-    <a  href={'https://www.youtube.com/channel/UCkgY5iy0Y4SqQustDKlee7g/videos'} target="_blank" >   <img src={youicon} alt=""/> fallow us on Youtube  </a> </Col>
+    <a  href={'https://www.youtube.com/channel/UCkgY5iy0Y4SqQustDKlee7g/videos'} target="_blank" >   <img src={youicon} alt=""/> follow me on Youtube  </a> </Col>
+    
 
 
 
