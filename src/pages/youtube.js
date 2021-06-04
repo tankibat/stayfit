@@ -89,7 +89,7 @@ return (
     
     var frame = <div > <iframe key= {i} className="container-fluid" height="300px" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> <h4 style={{color:'#5052e4'}}>{this.state.vtitle[i]}</h4>  </div>   
    
-    if(i%2===0) {return frame   ; } else { return  "" }
+  return frame   ; 
   
     
     //return (i%2==0 ? frame : '');
@@ -100,20 +100,7 @@ return (
     </div>
     
     
-    <div className="    col-lg-6  col-md-12 col-sm-12  ">
     
-    
-    
-    { this.state.eos.map((link,i)=>
-{ 
-  
-  
-  var frame1 = <div > <iframe key= {i} className="container-fluid" height="300px" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> <h4 style={{color:'#5052e4'}} > {this.state.vtitle[i]} </h4>  </div>   
-  //return (i%2!==0 ? frame1 : '');
-  if(i%2!==0) {return frame1;} else { return ''; }
-  
-  //return frame1; 
-})
 }
     </div>
   </div>
@@ -135,7 +122,6 @@ return (
 
 
 
-</div>
 
 
 
