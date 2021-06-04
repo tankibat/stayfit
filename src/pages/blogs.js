@@ -12,7 +12,7 @@ return (
 	
 	<Col   sm={4} lg={12} md={12}>
 	
-	<h4 style={{backgroundColor: "lightblue"}}> Blogs </h4>
+	<h4 style={{backgroundColor: "lightblue"}}> Blog </h4>
 	
 	
 	<p  >
